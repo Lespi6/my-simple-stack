@@ -24,7 +24,7 @@ public class SimpleStackImplTest {
     }
 
     /**
-     * Tests the function getSize of a stack.
+     * Tests the function getSize of a stack
      *
      * @param
      * @return
