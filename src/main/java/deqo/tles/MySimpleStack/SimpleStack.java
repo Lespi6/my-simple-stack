@@ -1,7 +1,7 @@
 package deqo.tles.MySimpleStack;
 
 import java.util.EmptyStackException;
-/* Commentaire exigence 1 */
+/* Commentaire exigence 1  */
 
 public interface SimpleStack {
 
