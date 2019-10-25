@@ -5,6 +5,7 @@ import java.util.Stack;
 
 public class SimpleStackImpl implements SimpleStack {
 
+
     Stack<Object> wrappedStack = new Stack<Object>();
 
     @Override
@@ -13,6 +14,12 @@ public class SimpleStackImpl implements SimpleStack {
         return wrappedStack.isEmpty();
     }
 
+    /**
+     * Gets the size of a stack.
+     *
+     * @param
+     * @return size of stack.
+     */
     @Override
     public int getSize() {
         return wrappedStack.size();
